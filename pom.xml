@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>org.degressly</groupId>
 	<artifactId>helper</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-JAVA_11-Spring_2.7.7</version>
 	<name>degressly</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
@@ -30,7 +30,7 @@
 	<properties>
 		<java.version>11</java.version>
 		<jackson.version>2.13.3</jackson.version>
-		<apache.commons-lang3.version>3.0</apache.commons-lang3.version>
+		<apache.commons-lang3.version>3.9</apache.commons-lang3.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -118,5 +118,13 @@
 		</plugins>
 
 	</build>
+
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>Github Degressly Maven Packages</name>
+			<url>https://maven.pkg.github.com/degressly/degressly-spring-replay</url>
+		</repository>
+	</distributionManagement>
 
 </project>
