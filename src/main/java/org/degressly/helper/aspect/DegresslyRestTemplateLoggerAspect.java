@@ -1,5 +1,6 @@
 package org.degressly.helper.aspect;
 
+import jakarta.annotation.PostConstruct;
 import org.degressly.helper.config.AbstractDegresslyConfig;
 import org.degressly.helper.logger.RequestResponseLogger;
 import lombok.RequiredArgsConstructor;
@@ -14,7 +15,6 @@ import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.PostConstruct;
 import java.util.Optional;
 
 @Slf4j

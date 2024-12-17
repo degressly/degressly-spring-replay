@@ -2,7 +2,7 @@ package org.degressly.helper.logger;
 
 import org.degressly.helper.config.ThreadConfigManager;
 import org.degressly.helper.dto.DegresslyRequest;
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 import lombok.experimental.UtilityClass;
 import lombok.extern.slf4j.Slf4j;
 import org.degressly.helper.wrapper.CustomHttpServletRequestWrapper;
