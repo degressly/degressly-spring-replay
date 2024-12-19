@@ -1,6 +1,6 @@
-package org.degressly.helper.aspect;
+package com.github.degressly.aspect;
 
-import org.degressly.helper.config.AbstractDegresslyConfig;
+import com.github.degressly.config.AbstractDegresslyConfig;
 import lombok.RequiredArgsConstructor;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;

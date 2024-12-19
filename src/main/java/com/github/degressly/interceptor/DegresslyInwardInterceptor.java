@@ -1,9 +1,9 @@
-package org.degressly.helper.interceptor;
+package com.github.degressly.interceptor;
 
 import lombok.RequiredArgsConstructor;
-import org.degressly.helper.config.AbstractDegresslyConfig;
-import org.degressly.helper.logger.RequestResponseLogger;
-import org.degressly.helper.wrapper.CustomHttpServletRequestWrapper;
+import com.github.degressly.config.AbstractDegresslyConfig;
+import com.github.degressly.logger.RequestResponseLogger;
+import com.github.degressly.wrapper.CustomHttpServletRequestWrapper;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 

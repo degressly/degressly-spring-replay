@@ -1,8 +1,8 @@
-package org.degressly.helper.aspect;
+package com.github.degressly.aspect;
 
 import jakarta.annotation.PostConstruct;
-import org.degressly.helper.config.AbstractDegresslyConfig;
-import org.degressly.helper.logger.RequestResponseLogger;
+import com.github.degressly.config.AbstractDegresslyConfig;
+import com.github.degressly.logger.RequestResponseLogger;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

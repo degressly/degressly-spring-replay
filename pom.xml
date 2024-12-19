@@ -9,7 +9,7 @@
 
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>org.degressly</groupId>
+	<groupId>com.github.degressly</groupId>
 	<artifactId>helper</artifactId>
 	<version>0.0.2-JAVA_21-Spring_3.4.0</version>
 	<name>degressly</name>

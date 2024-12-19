@@ -1,4 +1,4 @@
-package org.degressly.helper.config;
+package com.github.degressly.config;
 
 import org.slf4j.MDC;
 

@@ -1,4 +1,4 @@
-package org.degressly.helper.utils;
+package com.github.degressly.utils;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

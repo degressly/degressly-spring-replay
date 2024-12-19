@@ -1,16 +1,16 @@
-package org.degressly.helper.logger;
+package com.github.degressly.logger;
 
-import org.degressly.helper.config.ThreadConfigManager;
-import org.degressly.helper.dto.DegresslyRequest;
+import com.github.degressly.config.ThreadConfigManager;
+import com.github.degressly.dto.DegresslyRequest;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.experimental.UtilityClass;
 import lombok.extern.slf4j.Slf4j;
-import org.degressly.helper.wrapper.CustomHttpServletRequestWrapper;
+import com.github.degressly.wrapper.CustomHttpServletRequestWrapper;
 import org.springframework.http.RequestEntity;
 import org.springframework.util.CollectionUtils;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
-import org.degressly.helper.utils.JsonUtils;
+import com.github.degressly.utils.JsonUtils;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package org.degressly.helper.dto;
+package com.github.degressly.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

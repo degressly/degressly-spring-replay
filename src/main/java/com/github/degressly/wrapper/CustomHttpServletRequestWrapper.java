@@ -1,4 +1,4 @@
-package org.degressly.helper.wrapper;
+package com.github.degressly.wrapper;
 
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.core.JsonProcessingException;

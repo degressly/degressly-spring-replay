@@ -1,4 +1,4 @@
-package org.degressly.helper;
+package com.github.degressly;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
