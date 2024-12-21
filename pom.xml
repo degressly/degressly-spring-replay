@@ -120,13 +120,10 @@
 	</build>
 
 	<distributionManagement>
-		<snapshotRepository>
-			<id>mkpt-nexus-paytm-snapshot</id>
-			<url>https://nexusartifactory.paytm.com/repository/libs-snapshot/</url>
-		</snapshotRepository>
 		<repository>
-			<id>mkpt-nexus-paytm-release</id>
-			<url>https://nexusartifactory.paytm.com/repository/libs-release/</url>
+			<id>github</id>
+			<name>Github Degressly Maven Packages</name>
+			<url>https://maven.pkg.github.com/degressly/degressly-spring-replay</url>
 		</repository>
 	</distributionManagement>
 
