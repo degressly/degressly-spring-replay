@@ -76,7 +76,6 @@ public class YourApplication {
 ```java
 @Configuration
 @EnableAutoConfiguration
-@ComponentScan("com.paytm.tpap.upi.interceptor")
 public class InterceptorConfig extends WebMvcConfigurerAdapter {
     @Autowired
 	private DegresslyInwardInterceptor degresslyInwardInterceptor;
